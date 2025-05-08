@@ -5,7 +5,7 @@ import { client } from "@/sanity/lib/client";
 import Image from "next/image";
 import { urlFor } from "@/sanity/lib/image";
 import Swal from "sweetalert2";
-import ProtectedRoute from "../../componenets/ProtectesRoute";
+import ProtectedRoute from "../../componenets/Protected/ProtectesRoute"
 
 interface Order {
   _id: string;
