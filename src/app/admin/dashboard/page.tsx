@@ -218,7 +218,7 @@ import Image from "next/image";
 import { urlFor } from "@/sanity/lib/image";
 import Swal from "sweetalert2";
 import ProtectedRoute from "../../componenets/Protected/ProtectesRoute";
-import { deleteOrder, updateOrderStatus } from "./order/actions"; // server actions import
+import { deleteOrder, updateOrderStatus } from "./actions"; // server actions import
 
 interface Order {
   _id: string;
