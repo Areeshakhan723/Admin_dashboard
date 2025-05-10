@@ -217,7 +217,7 @@ import { client } from "@/sanity/lib/client";
 import Image from "next/image";
 import { urlFor } from "@/sanity/lib/image";
 import Swal from "sweetalert2";
-import ProtectedRoute from "../../componenets/Protected/ProtectesRoute";
+import ProtectedRoute from "../../componenets/ProtectedRoute";
 import { deleteOrder, updateOrderStatus } from "./actions"; // server actions import
 
 interface Order {
